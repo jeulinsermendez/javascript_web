@@ -1,0 +1,20 @@
+#logo{
+	background: black;	
+}
+#menu{
+	background: yellow;
+	
+}
+
+#menu li:hover{
+	background: black;
+}
+.button-more{
+
+	background: black;
+
+}
+#sidebar h4{
+
+	background: yellow;
+}

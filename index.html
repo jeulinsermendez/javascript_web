@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Proyecto con JavaScript</title>
+	<!-- ESTILOS CSS -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link id="theme" rel="stylesheet" type="text/css" href="css/red.css">
+
+	<!--JQUERY-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<!-- SLIDER -->
+	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	 
+	 <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+	 <!--MOMENT JS-->
+	 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+	 
+	 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script>
+	 <!--SCRIPTS -->
+	 <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+	<div id="selector-theme">
+		<div id="to-red"></div>
+		<div id="to-yellow"></div>
+		<div id="to-blue"></div>
+		<div id="to-black"></div>
+	</div>
+	<section id="global">
+		<!-- ACABECERA -->
+		<header>
+			<div id="logo">
+				<h1 id="titulo">Asoguacat</h1> 
+			</div>
+			<div class="clearfix"></div>
+			<nav id="menu">
+				<ul >
+					<li><a href="#">Inicio</a></li>
+					<li><a href="#">Proyectos</a></li>
+					<li><a href="#">Sobre nosotros</a></li>
+					<li><a href="#">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!-- SLIDER -->
+		<div id="slider">
+			<div class="bxslider">
+
+			  <div>
+			  	<img src="img/fotos_slider/logo_asoguacat.jpg" title="Futuro">
+			  </div>
+			  <div>
+			  	<img src="img/fotos_slider/imagen1.jpg" title="Asoguacat">
+			  </div>
+			  <div>
+			  	<img src="img/fotos_slider/imagen2.jpg" title="Guayabal">
+			  </div>
+			  <div>
+			  	<img src="img/fotos_slider/imagen3.jpg" title="Futuro">
+			  </div>
+			  <div>
+			  	<img src="img/fotos_slider/imagen4.jpg" title="Futuro">
+			  </div>
+			  <div>
+			  	<img src="img/fotos_slider/imagen5.jpg" title="Futuro">
+			  </div>
+			  
+			</div>
+		</div>
+
+		<!-- CONTENIDO -->
+		<section id="content">
+			<div id="posts">
+				<!--CARGAR POST DESDE JSON-->
+				
+			</div>
+			<aside id="sidebar">
+				<div id="about">
+					<h4><span>¿Quienes somos?</span></h4>
+					<img src="img/papel.png"/>
+					<div><p>Institución sin fines de lucro que agrupa a los oriundos de Guayabal, Prov. Independéncia, República Rominicana y allegados.
+					<br>
+					<br>
+					Nos dedicamos al trabajo social sin importar ideologías políticas, raza, o clase social.</p></div>
+				</div>
+			</aside>
+			<div class="clearfix"></div>
+		</section>
+	</section>
+	<footer>
+		Hecha por Leynor
+	</footer>
+	
+</html>

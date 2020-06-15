@@ -1,0 +1,18 @@
+#logo{
+	background: blue;	
+}
+#menu{
+	background: #333;
+}
+#menu li:hover{
+	background: blue;
+}
+.button-more{
+
+	background: blue;
+
+}
+#sidebar h4{
+
+	background: #333;
+}
